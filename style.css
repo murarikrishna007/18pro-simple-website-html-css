@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(../bg5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.hero-section{
+    width: 100%;
+    padding: 0px 80px;
+    position: relative; 
+
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navbar .brand h2{
+    font-size: 40px;
+    color: #fff;
+
+}
+.navbar .brand span{
+    color: #84fa52;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+.navbar ul li a{
+     text-decoration: none;
+     color: whitesmoke;
+     font-size: 18px;
+     font-weight: 500;
+}
+.navbar ul li a:hover{
+    color: rgb(137, 173, 117);
+    transition: 0.5s ease;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 650px;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 80;
+    padding-top: 225px;
+}
+.content .title{
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+
+}
+.content p{
+    font-size: 18px;
+    color: rgb(112, 211, 66);
+    line-height: 1.5;
+
+
+}
+.content .button{
+    text-decoration: none;
+    margin-top: 35px;
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid whitesmoke;
+    color: rgb(207, 209, 207);
+    /* border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px; */
+    border-radius: 25px;
+    background-color: rgb(29, 37, 29);
+    padding: 6px 20px;
+    cursor: pointer;
+    transition: .2s ease;
+    letter-spacing: 2px;
+
+}
+.content .button:hover{
+    background-color: rgb(247, 233, 233);
+    color: rgb(114, 145, 52);
+    font-weight: 600;
+    transition: 0.3s ease;
+    
+}
